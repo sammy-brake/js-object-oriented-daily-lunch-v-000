@@ -20,6 +20,12 @@ class Neighborhood {
     return store.customers.filter(customer => {return customer.neighborhoodId === this.id})
   }
 
+  meals() {
+    function uniqueMeals(value, index, self) {
+      return self.indexOf(value) === index;
+    }
+  }
+
 
 }
 
