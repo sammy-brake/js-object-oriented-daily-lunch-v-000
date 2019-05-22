@@ -35,7 +35,7 @@ class Customer {
   }
 
   meals() {
-    
+
   };
 
   // totalSpent() {
