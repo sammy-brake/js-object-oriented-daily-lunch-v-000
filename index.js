@@ -24,6 +24,7 @@ class Neighborhood {
     function uniqueMeals(value, index, self) {
       return self.indexOf(value) === index;
     }
+    return this.deliveries().map(delivery => delivery.meal()).filter(uniqueMeals)
   }
 
 
